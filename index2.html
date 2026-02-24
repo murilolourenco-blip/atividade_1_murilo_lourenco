@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página prática para consolidação de estudos em HTML5">
+    <title>Prática de Estrutura HTML</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Estudos em HTML5</h1>
+        <p>Aplicação prática dos principais elementos semânticos.</p>
+    </header>
+
+    <nav>
+        <a href="#introducao">Introdução</a> |
+        <a href="#topicos">Tópicos</a> |
+        <a href="#recursos">Recursos</a> |
+        <a href="#dados">Dados</a> |
+        <a href="#formulario">Formulário</a>
+    </nav>
+
+    <main>
+
+        <section id="introducao">
+            <h2>Introdução</h2>
+            <article>
+                <p>
+                    O HTML é a linguagem responsável pela estruturação de páginas web.
+                    Seu uso correto melhora a <strong>organização</strong> e a 
+                    <em>acessibilidade</em> dos conteúdos.
+                </p>
+            </article>
+        </section>
+
+        <section id="topicos">
+            <h2>Principais Tópicos</h2>
+            <ol>
+                <li>Estrutura do documento</li>
+                <li>Elementos semânticos</li>
+                <li>Listas e navegação</li>
+                <li>Tabelas e formulários</li>
+            </ol>
+        </section>
+
+        <section id="recursos">
+            <h2>Recurso Visual</h2>
+            <figure>
+                <img src="aprender-codigo-html.jpg" alt="Código HTML exibido em tela" width="300">
+                <figcaption>Exemplo ilustrativo de desenvolvimento web.</figcaption>
+            </figure>
+        </section>
+
+        <section id="dados">
+            <h2>Resumo em Tabela</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Recurso</th>
+                        <th>Função</th>
+                        <th>Importância</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Menu</td>
+                        <td>Organiza navegação</td>
+                        <td>Alta</td>
+                    </tr>
+                    <tr>
+                        <td>Imagem</td>
+                        <td>Complementa conteúdo</td>
+                        <td>Média</td>
+                    </tr>
+                    <tr>
+                        <td>Formulário</td>
+                        <td>Coleta dados do usuário</td>
+                        <td>Alta</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="formulario">
+            <h2>Envio de Informações</h2>
+            <form>
+
+                <p>
+                    <label for="usuario">Nome completo:</label><br>
+                    <input type="text" id="usuario" name="usuario" required>
+                </p>
+
+                <p>
+                    <label for="emailUsuario">E-mail:</label><br>
+                    <input type="email" id="emailUsuario" name="emailUsuario" required>
+                </p>
+
+                <p>
+                    <label for="mensagemUsuario">Mensagem:</label><br>
+                    <textarea id="mensagemUsuario" name="mensagemUsuario" rows="4"></textarea>
+                </p>
+
+                <button type="submit">Enviar dados</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Atividade prática de HTML — 2026</p>
+    </footer>
+<p> &copy; DS24/M4 - 2026 - Murilo H</p>
+</body>
+</html>
